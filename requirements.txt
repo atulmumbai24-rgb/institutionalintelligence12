@@ -1,0 +1,22 @@
+# Automated Company Intelligence Platform — Dependencies
+# Install: pip install -r requirements.txt
+
+# --- Core Framework ---
+streamlit>=1.38.0
+pydantic>=2.0.0
+
+# --- Document Parsing ---
+PyMuPDF>=1.24.0
+
+# --- Vector Store & Embeddings ---
+faiss-cpu>=1.8.0
+sentence-transformers>=3.0.0
+
+# --- PDF Fetching ---
+requests>=2.32.0
+
+# --- Utilities ---
+numpy>=1.26.0
+scikit-learn>=1.5.0  # For cosine similarity computation
+
+duckduckgo_search>=6.3.0
